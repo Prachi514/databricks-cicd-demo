@@ -38,3 +38,5 @@ result = (
 
 print("========== PRODUCT-WISE REVENUE ==========")
 result.show()
+
+print("========== CI/CD DEMO VERSION 2 ==========")
