@@ -1,0 +1,13 @@
+bundle:
+  name: databricks_cicd_demo
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
+
+    workspace:
+      host: https://dbc-388ad8a2-7dc3.cloud.databricks.com
